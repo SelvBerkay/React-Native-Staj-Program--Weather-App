@@ -1,6 +1,6 @@
 ## Projenin amacı 
 
-**Bu proje ReactJS staj programı için oluşturulmuştur. ReactJS ile yazdığım task'ı yeni öğrenmekte olduğum React Native ile de yazıp denemek istedim. Mac kullanmadığım için React Native yazarken EXPO GO ile telefonuma bağlanıp yazıyorum. Bu yüzdeb responsive kısmından emin değilim.**
+**Bu proje ReactJS staj programı için oluşturulmuştur. ReactJS ile yazdığım task'ı yeni öğrenmekte olduğum React Native ile de yazıp denemek istedim. Mac kullanmadığım için React Native yazarken EXPO GO ile telefonuma bağlanıp yazıyorum. Bu yüzden responsive kısmından emin değilim ve şimdilik sadece IOS için yazıyorum.**
 
 ## Projenin IOS Expo Demosu 
 
