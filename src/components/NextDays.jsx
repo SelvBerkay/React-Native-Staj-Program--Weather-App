@@ -38,7 +38,7 @@ export default function NextDays() {
 const styles = StyleSheet.create({
   container: {
     width: wp(98),
-    height: hp(17),
+    height: hp(25),
     borderRadius: 12,
     backgroundColor: "#16161F",
   },

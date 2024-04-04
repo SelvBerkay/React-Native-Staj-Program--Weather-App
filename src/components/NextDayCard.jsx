@@ -18,7 +18,6 @@ export default function NextDayCard({max,min,main,day,pod}) {
 const styles = StyleSheet.create({
   list : {
     width : wp(19),
-    height : 152,
     gap : 4,
     alignItems : "center"
   },
@@ -28,8 +27,8 @@ const styles = StyleSheet.create({
     color : "#BFBFD4"
   },
   icon : {
-    width : 56,
-    height : 56
+    width : wp(20),
+    height : hp(12)
   },
   max : {
     fontSize : 14,

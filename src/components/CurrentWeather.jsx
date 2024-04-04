@@ -24,7 +24,7 @@ export default function CurrentWeather() {
           <Text style={styles.cityName}>{cityName}, {country}</Text>
           <Text style={styles.date}>{getDate()}</Text>
         </View>
-        <View>
+        <View style={styles.subinfo}>
           <View style={styles.weather}>
             <Text style={styles.temp}>{Math.round(temp)}ºc</Text>
             <View style={styles.detail}>
@@ -43,7 +43,7 @@ export default function CurrentWeather() {
 const styles = StyleSheet.create({
   container: {
     width: wp(98),
-    height: hp(40),
+    height: hp(35),
     paddingTop : 12,
     paddingEnd : 12,
     paddingBottom : 12,
@@ -54,16 +54,17 @@ const styles = StyleSheet.create({
   },
   backgroundImg: {
     width: "100%",
-    height: hp(37),
+    height: hp(33),
     borderRadius: 8,
   },
   info: {
-    position: "absolute",
-    top: 20,
-    left: 20,
-    gap: 2,
-    width: 295,
-    height: 41,
+    padding : 10,
+    width: wp(80),
+    height: hp(10),
+  },
+  subinfo : {
+    flexDirection : "row",
+    justifyContent : "space-between"
   },
   cityName: {
     color: "#FAFAFA",
@@ -76,20 +77,13 @@ const styles = StyleSheet.create({
     fontFamily: "Nunito_400Regular"
   },
   icon: {
-    width: 160,
-    height: 160,
-    position: "absolute",
-    top: 144,
-    left: 175
+    width: wp(30),
+    height: hp(25),
   },
   weather: {
-    width: 105,
-    height: 116,
-    position: "absolute",
-    top: 172,
-    left: 16,
-    padding: 4,
-    gap: 8
+    width: wp(50),
+    height: hp(20),
+    padding : 10,
   },
   temp: {
     fontSize: 48,
@@ -97,8 +91,8 @@ const styles = StyleSheet.create({
     fontFamily: "Nunito_800ExtraBold"
   },
   detail : {
-    width : 100,
-    height : 42
+    width : wp(50),
+    height : hp(5)
   },
   minMax: {
     color: "#FFFFFF",
