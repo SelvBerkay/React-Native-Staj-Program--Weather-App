@@ -1,4 +1,4 @@
-![expodemoqr](https://github.com/SelvBerkay/React-Native-Staj-Program--Weather-App/assets/137525654/c5a7d1e0-6861-4d4d-ac3c-a5ba5568762c)![eas-update](https://github.com/SelvBerkay/React-Native-Staj-Program--Weather-App/assets/137525654/f17fe432-799f-4742-ad94-fbccdf66c0a2)## Projenin amacı 
+## Projenin amacı 
 
 **Bu proje ReactJS staj programı için oluşturulmuştur. ReactJS ile yazdığım task'ı yeni öğrenmekte olduğum React Native ile de yazıp denemek istedim.**
 
