@@ -8,7 +8,7 @@
 
 ## Proje Görselleri
 
-### 6.7 inch andorid
+### 6.7 inch android
 ![6.7 inch search](https://github.com/SelvBerkay/React-Native-Staj-Program--Weather-App/assets/137525654/068a2991-76ca-4cfb-b00b-188533ecfb1a)
 ![6.7 inch detail](https://github.com/SelvBerkay/React-Native-Staj-Program--Weather-App/assets/137525654/79227612-173b-44d8-82c4-d6a18ce40146)
 
